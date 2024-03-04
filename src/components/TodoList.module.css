@@ -1,0 +1,31 @@
+.container {
+    overflow: hidden;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #3C424A;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.header {
+    border-bottom: 1px solid #686E76;
+    margin-bottom: 1rem;
+}
+
+.title {
+    margin: 0 0 1rem;
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: #DFE8F0;
+}
+
+.subtitle {
+    font-weight: 300;
+    font-size: .8rem;
+    color: #686E76;
+}
+
+.todo-list {
+    margin: 1rem 0;
+}
