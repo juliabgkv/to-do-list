@@ -14,12 +14,12 @@ class TodoList extends Component {
     this.handleEditTodo = this.handleEditTodo.bind(this);
   }
   componentDidMount() {
-    const data = localStorage.getItem("todos") ? JSON.parse(localStorage.getItem("todos")) : [];
+    const data = localStorage.getItem("todos-react-app") ? JSON.parse(localStorage.getItem("todos-react-app")) : [];
     this.setState({ todos: data});
   }
   componentDidUpdate() {
     const json = JSON.stringify(this.state.todos);
-    localStorage.setItem("todos", json);
+    localStorage.setItem("todos-react-app", json);
   }
   handleAddTodo(todo) {
     const newTodo = {
